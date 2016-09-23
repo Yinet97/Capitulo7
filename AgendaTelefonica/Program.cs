@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ejerciciosCapitulo_7
+namespace AgendaTelefonica
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace ejerciciosCapitulo_7
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Calificaciones());
+            Application.Run(new Agenda());
         }
     }
 }
