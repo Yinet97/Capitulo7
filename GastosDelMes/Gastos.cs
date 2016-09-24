@@ -16,7 +16,7 @@ namespace GastosDelMes
         //4 Hacer un programa que muestre la suma de los gastos 
         //ocurridos durante el mes, y que los muestre en orden cronológico descendente
 
-        Stack Pila = new Stack();
+        Stack pila = new Stack();
 
         public Gastos()
         {
@@ -27,10 +27,10 @@ namespace GastosDelMes
         {
             int total = 0;
             int gasto = Convert.ToInt32(ingresoGasto.Text);
-            Pila.Push(gasto);
+            pila.Push(gasto);
             ingresoGasto.Clear();
 
-            foreach(int n in Pila)
+            foreach(int n in pila)
             {
                 total += n;
                 
@@ -43,8 +43,8 @@ namespace GastosDelMes
         {
             listaGasto.Items.Clear();
 
-            int count = Pila.Count +1;
-            foreach (int n in Pila)
+            int count = pila.Count +1;
+            foreach (int n in pila)
             {
                 count--;
                 listaGasto.Items.Add("Dia "+ count +" ->> " + n);
