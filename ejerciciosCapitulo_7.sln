@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastosDelMes", "GastosDelMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtencionCliente", "AtencionCliente\AtencionCliente.csproj", "{D4605B8F-638D-4754-9DE8-48A2480C3158}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diccionario", "Diccionario\Diccionario.csproj", "{39CF4E32-7FE4-475D-910A-E443F239BA6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D4605B8F-638D-4754-9DE8-48A2480C3158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4605B8F-638D-4754-9DE8-48A2480C3158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4605B8F-638D-4754-9DE8-48A2480C3158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CF4E32-7FE4-475D-910A-E443F239BA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CF4E32-7FE4-475D-910A-E443F239BA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CF4E32-7FE4-475D-910A-E443F239BA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CF4E32-7FE4-475D-910A-E443F239BA6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
